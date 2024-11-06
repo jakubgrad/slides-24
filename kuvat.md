@@ -1,5 +1,41 @@
 #
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Luento 3
+
+# Ohjelmiston elinkaari (software lifecycle)
+
+- **Vaatimusten analysointi ja määrittely**
+- Suunnittelu
+- Toteutus
+- Testaus
+- Ohjelmiston ylläpito ja evoluutio
+
+# Vaatimusmäärittely 2010-luvulla: Lean startup
+
+![](./images/mvp.png){ width=250 }
+
+# User story
+
+- Mike Cohn:
+  - _A user story describes **functionality that will be valuable** to either user or purchaser of software._
+
+- User stories are composed of three aspects:
+  1. **A written description** 
+  2. **Conversations** 
+  3. **Tests** 
+
+# Hyvän storyn kriteerit
+
+- Bill Wake _INVEST in good User Stories_, kuusi toivottavaa ominaisuutta
+  - Independent
+  - Negotiable
+  - Valuable to user or customer
+  - Estimable
+  - Small
+  - Testable
+
+#
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Luento 2
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -202,46 +238,6 @@ class Varasto
 
 ![](./images/wip2.png){ width=400 }
 
-#
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Luento 3
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.11.2023
-
-# Ohjelmiston elinkaari (software lifecycle)
-
-- **Vaatimusten analysointi ja määrittely**
-- Suunnittelu
-- Toteutus
-- Testaus
-- Ohjelmiston ylläpito ja evoluutio
-
-
-# Vaatimusmäärittely 2010-luvulla: Lean startup
-
-![](./images/mvp.png){ width=250 }
-
-# User story
-
-- Mike Cohn:
-  - _A user story describes **functionality that will be valuable** to either user or purchaser of software._
-
-- User stories are composed of three aspects:
-  1. **A written description** 
-  2. **Conversations** 
-  3. **Tests** 
-
-# Hyvän storyn kriteerit
-
-- Bill Wake _INVEST in good User Stories_, kuusi toivottavaa ominaisuutta
-  - Independent
-  - Negotiable
-  - Valuable to user or customer
-  - Estimable
-  - Small
-  - Testable
-
-#
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Luento 1
 
