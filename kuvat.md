@@ -1,8 +1,72 @@
 #
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Luento 5
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11.11.2024
+
+# Testauksen tasot
+
+- _Yksikkötestaus_ (unit testing)
+  - Yksittäisten luokkien, metodien ja moduulien testaus erillään muusta kokonaisuudesta
+
+- _Integraatiotestaus_ (integration testing)
+  - Yksittäin testattujen komponenttien liittäminen yhteen eli integrointi ja kokonaisuuden testaus
+
+- _Järjestelmätestaus_ (system testing)
+  - Toimiiko ohjelmisto vaatimuksiin kirjatulla tavalla?
+  - Tutkii järjestelmää kokonaisuudessaan: _end to end -testaus_
+  - Jakautuu useisiin alalajeihin
+
+- _Käyttäjän hyväksymistestaus_ (user acceptance testing)
+  - Loppukäyttäjän tuotteelle suorittama testaus
+
+# Testisyötteiden valinta: palautussovellus
+
+- Mitä testitapauksia kannattaisi valita palautussovelluksen testaamiseen?
+
+![](./images/submsystem.png){ width=350 }
+
+# Ohtuvarasto: tyhjä, puolitäysi, täysi
+
+```python
+class Varasto
+    def __init__(self, tilavuus, alku_saldo = 0):
+        self.tilavuus = tilavuus
+        self.saldo = alkusalto
+
+    def ota_varastosta(self, maara):
+        if maara < 0:
+            return 0.0
+
+        if maara > self.saldo:
+            kaikki_mita_voidaan = self.saldo
+            self.saldo = 0.0
+            return kaikki_mita_voidaan
+
+        self.saldo = self.saldo - maara
+        return maara
+```
+
+#
+
+- Rakenteeseen perustuva integraatio
+
+![](./images/3.png){ width=100 }
+
+- Ominaisuuksiin perustuva integraatio
+
+![](./images/3b.png){ width=100 }
+
+# "V-malli"
+
+![](../ohjelmistotuotanto-hy.github.io/images/3-3.png){ width=400 }
+
+
+#
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Luento 4
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7.11.2022
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7.11.2024
 
 # Hyvä product backlog on DEEP
 
@@ -178,72 +242,9 @@
 
 ![](./images/canary.png){ width=400 }
 
-#
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Luento 5
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13.11.2022
-
-# Testauksen tasot
-
-- _Yksikkötestaus_ (unit testing)
-  - Yksittäisten luokkien, metodien ja moduulien testaus erillään muusta kokonaisuudesta
-
-- _Integraatiotestaus_ (integration testing)
-  - Yksittäin testattujen komponenttien liittäminen yhteen eli integrointi ja kokonaisuuden testaus
-
-- _Järjestelmätestaus_ (system testing)
-  - Toimiiko ohjelmisto vaatimuksiin kirjatulla tavalla?
-  - Tutkii järjestelmää kokonaisuudessaan: _end to end -testaus_
-  - Jakautuu useisiin alalajeihin
-
-- _Käyttäjän hyväksymistestaus_ (user acceptance testing)
-  - Loppukäyttäjän tuotteelle suorittama testaus
-
-# Testisyötteiden valinta: palautussovellus
-
-- Mitä testitapauksia kannattaisi valita palautussovelluksen testaamiseen?
-
-![](./images/submsystem.png){ width=350 }
-
-# Ohtuvarasto: tyhjä, puolitäysi, täysi
-
-```python
-class Varasto
-    def __init__(self, tilavuus, alku_saldo = 0):
-        self.tilavuus = tilavuus
-        self.saldo = alkusalto
-
-    def ota_varastosta(self, maara):
-        if maara < 0:
-            return 0.0
-
-        if maara > self.saldo:
-            kaikki_mita_voidaan = self.saldo
-            self.saldo = 0.0
-            return kaikki_mita_voidaan
-
-        self.saldo = self.saldo - maara
-        return maara
-```
-
-#
-
-- Rakenteeseen perustuva integraatio
-
-![](./images/3.png){ width=100 }
-
-- Ominaisuuksiin perustuva integraatio
-
-![](./images/3b.png){ width=100 }
-
-# "V-malli"
-
-![](../ohjelmistotuotanto-hy.github.io/images/3-3.png){ width=400 }
-
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Luento 1
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;30.10.2022
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;30.10.2024
 
 # Ohjelmiston elinkaari (software lifecycle)
 
