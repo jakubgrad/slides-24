@@ -1,3 +1,36 @@
+
+#
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Luento 6
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12.11.2024
+
+# Test driven development (TDD)
+
+![](../ohjelmistotuotanto-hy.github.io/images/lu3-4.png){ width=340 }
+
+1. Kirjoitetaan sen verran testiä että testi ei mene läpi
+2. Kirjoitetaan koodia sen verran, että testi menee läpi
+3. Jos huomataan koodin rakenteen menneen huonoksi refaktoroidaan koodin rakenne paremmaksi
+4. Jatketaan askeleesta 1
+
+# Testit asiakkan kielellä
+
+![](images/robot1.png){ width=400 }
+
+# Deployment pipeline
+
+- Vaiheet, joiden suorittaminen edellytetään, että commitattu koodi saadaan siirrettyä staging/tuotantoympäristöön
+
+![](../ohjelmistotuotanto-hy.github.io/images/3-12.png){ width=400 }
+
+# Canary release
+
+- Kaksi rinnakkaista tuotantoympäristöä, joista uudet ominaisuudet viedään toiseen
+
+![](./images/canary.png){ width=400 }
+
+
 #
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Luento 5
@@ -210,37 +243,6 @@ class Varasto
 ![](../ohjelmistotuotanto-hy.github.io/images/lu8-1.png){ width=250 }
 
 - sovellus koostataan useista (jopa sadoista) pienistä verkossa toimivista autonomisista palveluista 
-
-#
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Luento 6
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;14.11.2023
-
-# Test driven development (TDD)
-
-![](../ohjelmistotuotanto-hy.github.io/images/lu3-4.png){ width=340 }
-
-1. Kirjoitetaan sen verran testiä että testi ei mene läpi
-2. Kirjoitetaan koodia sen verran, että testi menee läpi
-3. Jos huomataan koodin rakenteen menneen huonoksi refaktoroidaan koodin rakenne paremmaksi
-4. Jatketaan askeleesta 1
-
-# Testit asiakkan kielellä
-
-![](images/robot1.png){ width=400 }
-
-# Deployment pipeline
-
-- Vaiheet, joiden suorittaminen edellytetään, että commitattu koodi saadaan siirrettyä staging/tuotantoympäristöön
-
-![](../ohjelmistotuotanto-hy.github.io/images/3-12.png){ width=400 }
-
-# Canary release
-
-- Kaksi rinnakkaista tuotantoympäristöä, joista uudet ominaisuudet viedään toiseen
-
-![](./images/canary.png){ width=400 }
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Luento 1
 
